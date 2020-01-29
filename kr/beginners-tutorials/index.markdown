@@ -9,7 +9,7 @@ categories: [section]
 tags: []
 language: kr
 ---
-Follow them in the right order !
+차근차근 순차적으로 따라해주세요!
 
 {% assign sorted_pages = site.pages | sort:"order" %}
 {% for p in sorted_pages %}
